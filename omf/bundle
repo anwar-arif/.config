@@ -1,0 +1,4 @@
+package brew
+package wttr
+theme default
+theme eclm

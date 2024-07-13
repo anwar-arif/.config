@@ -1,0 +1,8 @@
+# Ignore list
+configstore
+gcloud
+jgit
+
+# Allow list
+!omf/*
+!fish/*
