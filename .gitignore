@@ -6,3 +6,5 @@ jgit
 # Allow list
 !omf/*
 !fish/*
+.idea
+gh

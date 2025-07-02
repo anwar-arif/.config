@@ -16,7 +16,7 @@ export PATH="/opt/homebrwe/Cellar/zookeeper/3.8.1/bin:$PATH"
 # Workstation
 alias ws="cd $HOME/workstation"
 alias prepgate="cd $HOME/workstation/prepgate"
-alias projects="cd $HOME/project"
+alias projects="cd $HOME/projects"
 alias gosrc="cd $HOME/go/src"
 alias acm="cd $HOME/acm"
 alias books="cd $HOME/books"
@@ -24,6 +24,7 @@ alias dotfile="cd $HOME/my-dot-files"
 alias home="cd ~"
 alias ...="cd ./../../"
 alias ....="cd ./../../../"
+
 # Git alias
 alias gl="git pull"
 alias gco="git checkout"
