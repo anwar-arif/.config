@@ -5,9 +5,10 @@ alias ....="cd ./../../../"
 alias books="cd $HOME/books"
 alias ws="cd $HOME/workstation"
 alias gosrc="cd $HOME/go/src"
-alias acm="cd $HOME/workstation/development/acm-code"
-alias projects="cd $HOME/workstation/development/projects"
-alias learning="cd $HOME/workstation/development/learning"
+alias acm="cd $HOME/workstation/acm"
+alias acm-code="cd $HOME/workstation/acm-code"
+alias projects="cd $HOME/workstation/projects"
+alias learning="cd $HOME/workstation/learning"
 
 # IDEs
 alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`"'
