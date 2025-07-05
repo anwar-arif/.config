@@ -2,12 +2,12 @@
 alias home="cd ~"
 alias ...="cd ./../../"
 alias ....="cd ./../../../"
-alias books="$HOME/books"
-alias ws="$HOME/workstation"
-alias gosrc="$HOME/go/src"
-alias acm="$HOME/workstation/development/acm-code"
-alias projects="$HOME/workstation/development/projects"
-alias learning="$HOME/workstation/development/learning"
+alias books="cd $HOME/books"
+alias ws="cd $HOME/workstation"
+alias gosrc="cd $HOME/go/src"
+alias acm="cd $HOME/workstation/development/acm-code"
+alias projects="cd $HOME/workstation/development/projects"
+alias learning="cd $HOME/workstation/development/learning"
 
 # IDEs
 alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`"'
