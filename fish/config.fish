@@ -14,13 +14,16 @@ if test -d (brew --prefix)"/share/fish/completions"
                 set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
                 end
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/anwar/google-cloud-sdk/path.fish.inc' ]; . '/Users/anwar/google-cloud-sdk/path.fish.inc'; end
+if test -d ~/.config/fish/functions
+    source ~/.config/fish/functions/*.fish
+else
+    echo "couldn't load the functions"
+end
 
 if test -f ~/.config/fish/aliases.fish
     source ~/.config/fish/aliases.fish
-    echo "✓ Loaded aliases from ~/.config/fish/aliases.fish"
 else
     echo "⚠ Warning: aliases.fish not found. Create it with:"
     echo "  touch ~/.config/fish/aliases.fish"
 end
+
