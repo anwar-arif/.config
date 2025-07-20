@@ -10,11 +10,6 @@ alias acm-code="cd $HOME/workstation/acm-code"
 alias projects="cd $HOME/workstation/projects"
 alias learning="cd $HOME/workstation/learning"
 
-# IDEs
-alias idea='open -a "`ls -dt /Applications/IntelliJ\ IDEA*|head -1`"'
-alias goland='open -a "`ls -dt /Applications/GoLand*|head -1`"'
-alias webstorm='open -a $(ls -dt /Applications/WebStorm* | head -1)'
-
 # Git alias
 alias gg="git gui"
 alias gd="git diff"
@@ -24,6 +19,7 @@ alias gp="git push"
 alias gcm="git commit -m"
 alias gaa="git add --all"
 alias gb="git branch"
+alias gl="git pull"
 
 # Docker alias
 alias dim="docker images"
