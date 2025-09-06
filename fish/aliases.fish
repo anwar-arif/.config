@@ -20,6 +20,8 @@ alias gcm="git commit -m"
 alias gaa="git add --all"
 alias gb="git branch"
 alias gl="git pull"
+alias grv="git remote -v"
+alias gco="git checkout"
 
 # Docker alias
 alias dim="docker images"
