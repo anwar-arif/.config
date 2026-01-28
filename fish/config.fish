@@ -1,6 +1,9 @@
 set -x PATH /opt/homebrew/bin $PATH
 set -x PATH /usr/bin $PATH
 
+# Set the color for commands (program names)
+set fish_color_command brmagenta
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
