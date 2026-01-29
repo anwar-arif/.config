@@ -4,6 +4,12 @@ set -x PATH /usr/bin $PATH
 # Set the color for commands (program names)
 set fish_color_command brmagenta
 
+# Change ls directory colors (BSD ls with -G flag)
+# Format: directory, symlink, socket, pipe, executable, block, char, setuid, setgid, sticky, other-writable
+# Colors: a=black b=red c=green d=brown e=blue f=magenta g=cyan h=light-grey x=default
+# Gx = cyan directories (easier to read than blue)
+set -x LSCOLORS Gxfxcxdxbxegedabagacad
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
