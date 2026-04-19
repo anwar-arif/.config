@@ -3,6 +3,9 @@ configstore
 gcloud
 jgit
 
+# gopass
+gopass
+
 # Allow list
 !omf/*
 !fish/*

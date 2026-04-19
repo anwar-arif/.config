@@ -31,15 +31,17 @@ alias drm="docker rm"
 
 # Kubernetes alias
 alias k="kubectl"
-alias kd="kubectl describe"
+alias kds="kubectl describe"
 alias kcf="kubectl create -f"
 alias kaf="kubectl apply -f"
 
+alias kg="kubectl get"
 alias kgn="kubectl get nodes"
 alias kgp="kubectl get pods"
 alias kgd="kubectl get deployments"
 alias kgs="kubectl get services"
 
+alias kd="kubectl delete"
 alias kdn="kubectl delete nodes"
 alias kdp="kubectl delete pods"
 alias kdd="kubectl delete deployments"
